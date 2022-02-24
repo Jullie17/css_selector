@@ -1,0 +1,107 @@
+*{
+  font-family: 'proxima-nova', sans-serif;
+}
+body{
+  background-color: #FFC300;
+  text-align: center;
+  font-size: 10vmin;
+}
+
+h1{
+  color:#FFFFFF;
+}
+p{
+  color:#000000;
+  text-align: center;
+}
+
+/**determines the font size relative to screen **/
+/*p{
+  font-size: 15vmin;
+}*/
+
+
+.boxes{
+  display: flex;
+  flex-direction:column;
+  /*flex-flow: column wrap;*/
+  justify-content: space-around;
+}
+
+.flexbox{
+  width: 500px;
+  margin: 10px;
+  /*background-color: #FFF469;*/
+  height: 300px;
+}
+
+.box-1{
+
+  border-style: solid;
+  border-width: 10px;
+  border-color: #FFFFFF;
+
+}
+
+.box-2{
+  border-style: solid;
+  border-width: 10px;
+  border-color: #FFFFFF;
+}
+
+.box-3{
+  border-style: solid;
+  border-width: 10px;
+  border-color: #FFFFFF;
+}
+
+.box-4{
+  border-style: solid;
+  border-width: 10px;
+  border-color: #FFFFFF;
+}
+
+.box-5{
+  border-style:solid;
+  border-width: 10px;
+  border-color: #FFFFFF;
+}
+
+/**makes each box change color when hovered**/
+.box-1:hover{
+  border-color: #01A219;
+  background-color: #D8FF00;
+}
+
+.box-2:hover{
+  border-color: #014DA2;
+  background-color:#00E0FF;
+}
+
+.box-3:hover{
+  border-color: #FFB0EA;
+  background-color: #FF00FB;
+}
+
+.box-4:hover{
+  border-color: #FF0C00;
+  background-color: #FF5900;
+}
+
+.box-5:hover{
+  border-color:#D5B5FD;
+  background-color: #7B16FC;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 5vmin;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3ed433;
+  font-size: 10vmin;
+}
